@@ -1,0 +1,63 @@
+body{
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  font-size: 50px;
+
+}
+.highlight{
+  color: blueviolet;
+
+}
+.half-width{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+
+}
+.half-width img{
+  width: 80%;
+  border-radius: 60%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* .topbanner{
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat ;
+} */
+section{
+  height: 500px;
+  padding-bottom: 70px;
+}
+.link-button{
+  text-decoration: none;
+  background-color: brown;
+  background-color: linear-gradient (45deg, lightSalmon, tomato);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+.experience1{
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 50%;
+}
+#fullstack{
+  border-left: 7px solid;
+  border-image: linear-gradient(180 deg, lightSalmon, tomato);
+  border-image-slice: 1;
+}
+#prodev{
+  border-left: 7px solid red;
+  border-image: linear-gradient(180 deg, lightSalmon, tomato);
+  border-image-slice: 1;
+}
+footer p{
+  text-align: center;
+}
